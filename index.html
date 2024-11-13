@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tareas</title>
+    <link rel="stylesheet" href="stylos.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <section class="box-todolist">
+        <section class="contador">
+            <div class="boxTarea">
+                <h1 class="title1">Tus Tareas</h1>
+                <p>¡Completa tus metas!</p>
+                <div class="progresbar">
+                   <span class="bar"></span>
+                </div>
+             </div>   
+            <div class="circleNumber">
+                <div class="done">0</div>
+                <div class="pay"> / </div>
+                <div class="nTareas">0</div>
+            </div>
+        </section>
+        <section class="tarea">
+            <form action="" class="form-tareas">
+                <input type="text" id="text-tarea" class="text-tarea">
+                <button type="submit" class="btn_plus"><i class="fa fa-plus"></i></button>
+            </form>
+             <h2 class="Title">Lista de tareas</h2> 
+            <section class="work-list" id="lista-tareas">
+                
+            </section>
+        </section>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+   
+</body>
+</html>
