@@ -45,7 +45,7 @@ function agregarObjeto(tarea){
 }
 
 function addTarea(){
-
+  tareasComplete()
   taskArea.innerHTML = '';
   countTareas.innerHTML = arrayTask.length;
   arrayTask.map(tarea =>{                                    
